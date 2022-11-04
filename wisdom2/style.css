@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#b-image {
+    background-image: url(/Straight-Stairs-with-a-Central-Landing.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 94vh;
+    position: relative;
+
+}
+
+ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    color: rgb(20, 17, 17);
+    font-size:18px;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(87, 41, 41);
+    padding: 40px 20px 40px 100px ;
+    background-color: rgb(180, 168, 168);
+    
+}
+
+span{
+    background-color: white;
+    padding: 10px 10px 10px 10px ;
+    border: solid rgb(63, 87, 63);
+    border-radius: 8px;
+
+}
+
+
+.text-1{
+font-style: initial;
+}
+
+
+
+.text{
+    display: block;
+    text-align: center;
+    padding: 170px 0px 0px 0px ;
+    color: rgb(245, 243, 243);
+    font-weight: 700;
+    font-size: 23px;
+    font-style: italic;
+}
+
+.container{
+    display: grid;
+grid-template-columns: 1fr 1fr ;
+align-items: center;
+}
+
+.lodge-img{
+    width: 600px;
+    padding: 80px 0px 0px 20px ;
+    
+}
+ 
+.lod{
+    border: solid rgb(29, 25, 25);
+    border-radius: 10px;
+    color: rgb(110, 94, 94);
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.tittle{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+}
+
+.lorem{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 0px 0px ;
+}
+
+@media only screen and (max-width:500px){
+
+    
+
+}

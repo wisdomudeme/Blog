@@ -1,0 +1,29 @@
+*{
+    margin:0 ;
+    padding: 0%;
+}
+/* 
+p{
+    text-align: center;
+
+}
+.img{
+style: center;
+}
+
+
+h5{
+
+    text-align: center;
+}
+ul{
+    text-align: center;
+}
+h1{
+    text-align: center;
+} */
+
+.ul{
+    display: flex;
+    flex-direction: column;
+}

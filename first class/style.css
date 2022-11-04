@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+ 
+}
+/* css syntax */
+selector{
+    property:value;
+    property:value;
+    property:value;
+    property:value;
+    property:value;
+
+}
+/* tag/name selector */
+h2{
+    border: solid blue;
+  
+}
+
+span{
+    border: solid red ;
+}
+div{
+    border:solid chartreuse;
+}
+/* id selector */
+#fish{
+    color:brown
+}
+/* class selector */
+.garri{
+    color: slateblue;
+}
+/* descendant selector */
+section ul li{
+    border: solid purple;
+}
+/* child selector */
+section>ul{
+    text-align: center;
+}
